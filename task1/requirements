@@ -1,0 +1,11 @@
+business requirements:
+
+1. we have one of the s3 bucket where data will be coming on hourly basis
+
+Size
+
+2. we should have pipeline which should be triggered whenever any file is coming to bucket
+
+3. pipeline should be able to read the employee data and aggregate the salary data based on country.
+
+4. aggregate data should be dump to one of the bucket.
